@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Flex, Box, Text, Button } from '@chakra-ui/react';
 import { baseUrl, fetchApi } from '../utils/fetchApi';
-import Property from '../component/Property';
+import Property from '../components/Property';
 
 const Banner = (props) => {
   const {purpose, title1, title2, imageUrl, desc1, desc2, linkName, buttonText} = props;
@@ -20,7 +20,7 @@ const Banner = (props) => {
         <Text color="gray.700" fontSize="lg" paddingTop="3" paddingBottom="3" fontWeight="medium">
           {desc1}<br />{desc2}
         </Text>
-        <Button fontSize="xl" bg="blue.300" color="white">
+        <Button fontSize="xl" bg="blue.500" color="white">
           <Link href={linkName}>{buttonText}</Link>
         </Button>
       </Box>
