@@ -3,7 +3,8 @@ import { FaBed, FaBath } from 'react-icons/fa';
 import { BsGridFill } from 'react-icons/bs';
 import { GoVerified } from 'react-icons/go';
 import millify from 'millify';
-import { baseUrl, fetchApi } from "../utils/fetchApi";
+import { baseUrl, fetchApi } from "../../utils/fetchApi";
+import ImageScrollbar from "../../components/ImageScriollbar";
 
 const PropertyDetails = ({propertyDetails}) => {
   const {
@@ -13,8 +14,7 @@ const PropertyDetails = ({propertyDetails}) => {
 
   return (
     <Box maxWidth="1000px" margin="auto" p="4">
-      {price}
-      {rooms}
+      {photos && <ImageScrollbar data={photos} />}
     </Box>
   )
 };

@@ -18,7 +18,7 @@ const LeftArrow = () => {
       />
     </Flex>
   );
-};
+}
 
 const RightArrow = () => {
   const {scrollNext} = useContext(VisibilityContext);
@@ -34,7 +34,7 @@ const RightArrow = () => {
       />
     </Flex>
   );
-};
+}
 
 const ImageScrollbar = ({data}) => (
   <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow} overflow="hidden">
