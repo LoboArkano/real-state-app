@@ -14,7 +14,7 @@ const Navbar = () => (
     <Spacer />
     <Box>
       <Menu>
-        <MenuButton as={IconButton} icon={<FcMenu />} variant="outlined" color="red.400" size="lg" />
+        <MenuButton as={IconButton} icon={<FcMenu />} variant="outline" color="red.400" size="lg" />
         <MenuList>
           <Link href="/" passHref>
             <MenuItem icon={<FcHome />}>Home</MenuItem>
