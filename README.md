@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real Xtate
+
+Real Xtate is the app you need to find the perfect property in the UAE to buy or rent.
+
+## Live Demo
+
+[Vercel](https://real-state-app-loboarkano.vercel.app/)
+
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/33432289/146237317-0f743c8e-8559-4e7e-ab92-901c1d941615.png)
+
+![image](https://user-images.githubusercontent.com/33432289/146237586-f885dad4-5ad0-4268-a02f-882ce6081ae8.png)
+
+## Built With
+
+- Next.js
+
+- React
+
+- Javascript
+
+- Chakra UI
+
+- CSS
+
+- Bayut API
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+To get a local copy up and running follow these simple example steps.
+```
+    git clone git@github.com:LoboArkano/real-state-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- npm
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Node.js
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Setup
 
-## Learn More
+Install dependencies with:
 
-To learn more about Next.js, take a look at the following resources:
+```
+    npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+    npm run dev
+```
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👤 **Roberto Perez Jimenez**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Github: [@LoboArkano](https://github.com/LoboArkano)
+- Twitter: [@LoboArcano92](https://twitter.com/LoboArcano92)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jose-roberto-perez-jimenez/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/LoboArkano/real-state-app/issues).
+
+## Acknowledgments
+
+JavaScript Mastery
+
+## Show your support
